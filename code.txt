@@ -1,0 +1,25 @@
+{
+  /* <DataServices /> */
+}
+{
+  /* <ApiComponent /> */
+}
+{
+  /* <functionComponent/> */
+}
+{
+  /* <weatherComponent /> */
+}
+
+//https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid={}
+
+// axios.get(`${process.env.REACT_APP_API_URL}/weather/?lat=${latitude}&lon=${longitude}&units=metric&APPID=${API_KEY}`)
+
+//       .then((weatherData) => {
+//         console.log(weatherData.data);
+//         setTemperature(weatherData.data.current.temp);
+//         setSunset(weatherData.data.current.sunset);
+//         setHumidity(weatherData.data.current.humidity);
+//         setCity(weatherData.data.timezone);
+//       });
+// }, [latitude, longitude])
